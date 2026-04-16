@@ -1,0 +1,13 @@
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.deb
+crud/
+admin/
+git/
+git2/
+всякое/
+.vscode/
+.idea/

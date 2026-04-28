@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Анкета</legend>
+        <form id="anketaForm">
+            Фамилия <input type="text" id="surname" placeholder=""><br><br>
+            Имя <input type="text" id="firstname" placeholder=""><br><br>
+            Email <input type="email" id="email" placeholder="example@domain.com"><br><br>
+            Телефон <input type="tel" id="phone" placeholder="+70000000000"><br><br>
+            Дата рождения <input type="text" id="dob" placeholder="дд.мм.гггг"><br><br>
+
+            Как с вами связаться?<br>
+            <input type="radio" name="contact" value="Email"> Email
+            <input type="radio" name="contact" value="Телефон"> Телефон<br><br>
+
+        <div>
+            <label for="">Ваш любимый цвет</label>
+            <input type="color">
+        </div>
+         <div>
+            <label for="">Откуда вы о нас узнали?</label>
+            <select>
+                <option value="text">http://www.techcrunch.com/
+                <option value="text">http://www.readwriteweb.com/
+                <option value="text">http://www.engadget.com/
+                  <option value="text">http://www.aiaxian.com/
+            </select>
+
+         </div>
+
+
+            <button>Отправить</button>
+        </form>
+    </fieldset>
+
+</body>
+</html>
+       
